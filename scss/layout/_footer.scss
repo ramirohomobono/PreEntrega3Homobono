@@ -1,0 +1,32 @@
+footer{
+    display: grid;
+    font-family: 'Montserrat', sans-serif;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: lightgray;
+    justify-content: end;
+    justify-content: center;
+}
+
+.ft-1{
+    display: grid;
+    grid-column: 2/3;
+    justify-self: center;
+    align-self: center;
+    padding: 10px
+}
+.ft-2{
+    display: grid;
+    grid-column: 2/3;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+}
+.iconosredes{
+    display: grid;
+    list-style: none; 
+    max-width: 60px;
+    justify-content: center;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}

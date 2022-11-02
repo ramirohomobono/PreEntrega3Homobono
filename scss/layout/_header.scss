@@ -1,0 +1,51 @@
+header{
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2;
+    h1{
+        color: black;
+        padding: 20x;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    nav{
+    background-color: lightgray;
+    height: 60px;
+    }
+}
+    .navMenu{
+    
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    flex-wrap: wrap;
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+                font-size: 20px;
+                flex-wrap: wrap;
+                &:hover{
+                    color: white;
+                }
+            }
+            }
+        }
+    .nav-item{
+            font-size: 18px;
+            margin: 20px 40px;
+        }
+    .icono-carro-perfil{
+        max-width: 60px;
+        list-style: none;
+        display: flex;
+        justify-content:center;
+        gap: 30px;
+        margin: 20px 20px;
+    }
