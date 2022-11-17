@@ -10,13 +10,13 @@ body {
   grid-template-columns: 1f auto 1fr; }
 
 header {
-  background-color: grey;
+  background-color: greenyellow;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 2; }
   header h1 {
     color: black;
-    padding: 20x;
+    padding: 20px;
     text-align: center;
     font-family: 'Montserrat', sans-serif; }
   header nav {
@@ -70,7 +70,7 @@ footer {
   display: grid;
   font-family: 'Montserrat', sans-serif;
   grid-template-columns: repeat(3, 1fr);
-  background-color: lightgray;
+  background-color: greenyellow;
   justify-content: end;
   justify-content: center; }
 
@@ -116,7 +116,7 @@ footer {
 
 .grid-nosotros header {
   display: grid;
-  background-color: grey; }
+  background-color: greenyellow; }
 
 .grid-nosotros main {
   display: grid;
@@ -258,7 +258,6 @@ footer {
 
 .grid-registro {
   display: grid;
-  width: 100%;
   height: 100vh;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -383,14 +382,5 @@ body {
   color: green; }
 
 @media (max-width: 576px) {
-  .grid-contacto {
-    width: 576px;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
-    grid-template-areas: "header" "header" "main" "main" "footer"; } }
-
-@media (max-width: 768px) {
-  .grid-contacto {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1f);
-    grid-template-areas: "header header header" "main main main" "main main main" "footer footer footer"; } }
+  header {
+    background-color: aqua; } }
